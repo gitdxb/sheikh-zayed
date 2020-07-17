@@ -10,17 +10,17 @@ header {
 header p {
     font-weight: 300;
 }
-
 #img-div {
-    text-align: center;
-    background-color: white;
-    padding: 1em 0;
-    margin: 0 10px;
-    border-radius: 5px;
+    background: white;
+    padding: 10px;
 }
 img {
-    width: 30%;
-    height: 30%;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+#img-caption {
+    text-align: center;
 }
 ul {
     max-width: 50%;
